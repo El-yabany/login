@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <main >
+        <section class="main">
+            <div class="container flex  align-items-center">
+                    <div class="parent row col-lg-4 col-sm-3 col-md-4"  >
+                        <label for="name" class="text-primary form-label">Your Name </label>
+                        <input type="text" placeholder="Fill Your Name" id="name" class="rounded form-control">
+                        <span id="error-name"></span>
+                    </div>
+        
+                    <div class="parent row col-lg-4 col-sm-3 col-md-4">
+                        <label for="email" class="text-primary form-label">Your Email</label>
+                        <input type="email" placeholder="Fill Your Email" id="email" class="rounded form-control">
+                        <span id="error-email"></span>
+                    </div>
+                    <div class="parent row col-lg-4 col-sm-3 col-md-4">
+                        <label for="subject" class="text-primary form-label">Your pierth day</label>
+                        <input type="date" placeholder="Fill Your Date" id="subject" class="rounded form-control">
+                        <span id="error-subject"></span>
+                    </div>
+                    <div class="parent row col-lg-4 col-sm-3 col-md-4">
+                        <label for="passwaed" class="text-primary form-label">Your Passward</label>
+                        <input type="password" placeholder="Fill Your password" id="passwared" class="rounded form-control">
+                        <span id="error-passward"></span>
+                    </div>
+                    <button id="btn" class="row ">Finished</button >
+                    <span class="error-page" id="error-page"></span>
+            </div>
+        </section>
+    </main>
+    <script src="../js/main.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
